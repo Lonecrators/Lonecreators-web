@@ -4,9 +4,7 @@
         "es6": true,
         "node": true
     },
-    "extends": [
-        "airbnb"
-    ],
+    "extends": ["airbnb", "prettier", "prettier/react"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -18,9 +16,7 @@
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": [
-        "react"
-    ],
+    "plugins": ["react", "prettier"],
     "rules": {
         "indent": ["error", 2],
         "react/jsx-indent": [4, "tab"],
