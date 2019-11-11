@@ -1,0 +1,30 @@
+@import '../../../assets/scss/mixins/mixins';
+.OnGoingContests {
+    .card-content {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .contest-author,
+    .contest-date {
+        color: rgba(1, 27, 51, 0.5);
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 500;
+        @include screenSize(ss-phone) {
+            font-weight: 700;
+        }
+    }
+    .post-comment,
+    .posts-count,
+    .contest-tag {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        @include screenSize(ss-phone) {
+            font-weight: 700;
+        }
+    }
+    .contest-tag {
+        color: #297bf5;
+    }
+}
