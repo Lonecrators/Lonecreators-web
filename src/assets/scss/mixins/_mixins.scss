@@ -1,4 +1,4 @@
-@mixin screenSize($size) {
+@mixin screen-size($size) {
     @if $size == large-desktop {
         @media (min-width: 1200px) {
             @content;
