@@ -1,3 +1,77 @@
-main{
-  height: 100vh;
+@import '../../assets/scss/mixins/mixins';
+.Home {
+    main {
+        margin-bottom: 8rem;
+    }
+    .intro {
+        background: #f4f4f4;
+        margin-bottom: 5rem;
+        min-height: 550px;
+        @include screenSize(tablet) {
+            min-height: 550px;
+        }
+        @include screenSize(ss-phone) {
+            padding-bottom: 2rem;
+            min-height: auto;
+        }
+    }
+    .home_bg {
+        width: 100%;
+        height: 550px;
+        background-image: url('../../assets/images/backgrounds/Vector_1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        top: -71px;
+        @include screenSize(ss-phone) {
+            display: none;
+        }
+    }
+    .main_text {
+        margin-top: 8.94rem;
+        @include screenSize(tablet) {
+            margin-top: 7.94rem;
+        }
+        @include screenSize(ss-phone) {
+            text-align: center;
+            margin-top: 4.94rem;
+            p {
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+    .main-heading__text {
+        font-size: 40px;
+        line-height: 56px;
+        font-weight: 700;
+        @include screenSize(tablet) {
+            font-size: 32px;
+        }
+        @include screenSize(ss-phone) {
+            text-align: center;
+        }
+    }
+    .mt-4e {
+        margin-top: 4rem;
+    }
+    .ongoing-contests {
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+        margin-top: 5rem;
+        @include screenSize(ss-phone) {
+            padding-top: 0;
+            margin-top: 3.5rem;
+        }
+    }
+    h3.section-heading {
+        font-size: 32px;
+        line-height: 56px;
+        @include screenSize(ss-phone) {
+            font-size: 24px;
+            line-height: 35px;
+        }
+    }
 }

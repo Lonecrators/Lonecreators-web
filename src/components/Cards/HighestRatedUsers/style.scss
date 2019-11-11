@@ -1,0 +1,22 @@
+.HighestRated {
+    .user-description {
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    .username {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #297bf5;
+    }
+    .user-rating {
+        color: #011b33;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: bold;
+        i {
+            color: #a9f52d;
+        }
+    }
+}

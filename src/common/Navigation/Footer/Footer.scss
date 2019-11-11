@@ -1,3 +1,41 @@
-footer{
-  flex: none;
+@import '../../../assets/scss/mixins/mixins';
+footer {
+    background: #e5e5e5;
+    padding-top: 3.3rem;
+    padding-bottom: 2.7rem;
+    position: relative;
+    .footer-nav {
+        list-style: none;
+        h4 {
+            font-size: 16px;
+            @include screenSize(ss-phone) {
+                text-align: left !important;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+        .footer-item {
+            color: #4f4f4f;
+            font-size: 14px;
+            font-weight: 500;
+            &:hover {
+                color: #011b33;
+            }
+        }
+    }
+}
+.list-inline-start {
+    padding-inline-start: 60px;
+    @include screenSize(ss-phone) {
+        padding-inline-start: 0;
+    }
+}
+.footer-level__two {
+    margin-top: 4.5rem;
+}
+.footer-copyrights {
+    color: rgba(1, 27, 51, 0.35);
+    font-size: 14px;
+    font-weight: 500;
 }
