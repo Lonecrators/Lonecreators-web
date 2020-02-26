@@ -1,0 +1,28 @@
+.Login {
+    background: #e5e5e5;
+    width: 100%;
+    height: 100%;
+    .LoginHeader {
+        text-align: center;
+        padding: 3rem 0;
+    }
+    .LoginContainer {
+        width: 950px;
+        height: 726px;
+        margin: 4rem auto 6rem;
+        background: #fff;
+        box-shadow: 0px 4px 8px rgba(9, 165, 219, 0.3);
+    }
+    .btn-outline-white {
+        border-width: 1px !important;
+    }
+    .FormContainer {
+        padding: 40px 64px;
+        form {
+            margin-top: 60px;
+        }
+        label {
+            font-size: 14px;
+        }
+    }
+}
