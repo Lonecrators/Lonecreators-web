@@ -42,12 +42,12 @@ const Header = () => {
                     >
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item active">
-                                <Link className="nav-link" href="/">
+                                <Link className="nav-link" href="/contests">
                                     Contests
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link mx-md-3" to="/">
+                                <Link className="nav-link mx-md-3" to="/posts">
                                     Posts
                                 </Link>
                             </li>
@@ -55,13 +55,13 @@ const Header = () => {
 
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">
+                                <Link className="nav-link login" to="/login">
                                     Login
                                 </Link>
                             </li>
                             <li className="nav-item ml-md-3">
                                 <Link
-                                    to="/"
+                                    to="/register"
                                     className="btn btn-md white-text bg-blue--light"
                                 >
                                     Join now
