@@ -61,7 +61,7 @@ const Login = () => {
                             </form>
                         </div>
                     </div>
-                    <div className="col-lg-6 px-0">
+                    <div className="col-lg-6">
                         <AuthBanner>
                             <h3 className="white-text">Hello, Friend!</h3>
                             <p className="mt-3 white-text">

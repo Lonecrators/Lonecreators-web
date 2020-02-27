@@ -7,6 +7,9 @@ export const AuthBanner = styled.div`
     color: white;
     text-align: center;
     padding: 244px 40px;
+    @media screen and (min-width: 320px) and (max-width: 769px) {
+        margin-bottom: 2rem;
+    }
 `;
 export const Social = styled.a`
     border-radius: 50%;
