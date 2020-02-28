@@ -8,7 +8,20 @@ export const AuthBanner = styled.div`
     text-align: center;
     padding: 244px 40px;
     @media screen and (min-width: 320px) and (max-width: 769px) {
-        margin-bottom: 2rem;
+        // margin-bottom: 2rem;
+    }
+`;
+export const AuthBannerBg = styled.div`
+    background-image: linear-gradient(#297bf5, #011b33);
+    border: 0.25px solid rgba(9, 165, 219, 0.7);
+    width: 100%;
+    height: 750px;
+    color: white;
+    text-align: center;
+    padding: 260px 40px;
+    @media screen and (min-width: 320px) and (max-width: 769px) {
+        // margin-bottom: 2rem;
+        height: unset;
     }
 `;
 export const Social = styled.a`
