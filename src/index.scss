@@ -65,7 +65,13 @@ p {
 }
 .btn-wd {
     padding: 0.7rem 5.5rem !important;
-    font-size: 16px;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+.btn-wd-sm {
+    padding: 0.7rem 4.5rem !important;
+    font-size: 16px !important;
+    font-weight: 600;
 }
 button {
     text-transform: unset !important;
@@ -76,6 +82,7 @@ button {
 .lc__form {
     border: 1px solid rgba(1, 27, 51, 0.3);
     border-radius: 6px;
+    height: 44px;
     &:focus {
         border-color: #297bf5;
     }
