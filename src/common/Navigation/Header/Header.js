@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 import './Header.scss';
 
 const Header = () => {
-    const [isOpen, setOpen] = useState(false);
-
     const toggleNavbar = () => {
         console.log('you clicked');
         const navBar = document.querySelector('.navbar-collapse');
@@ -42,7 +40,7 @@ const Header = () => {
                     >
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item active">
-                                <Link className="nav-link" href="/contests">
+                                <Link className="nav-link" to="/contests">
                                     Contests
                                 </Link>
                             </li>

@@ -1,0 +1,31 @@
+.SecHeader {
+    .lc__input-group {
+        background: #f2f2f2;
+        width: 400px;
+        &:focus-within {
+            border: 1px solid #011b33;
+            box-shadow: 9px 7px 6px -8px rgba(1, 27, 51, 1);
+        }
+        .input-group-text {
+            background: transparent;
+            border: none;
+        }
+        input {
+            background: #f2f2f2;
+            border: none;
+            border-radius: 6px;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+    .blue-dot {
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background: #297bf5;
+        position: absolute;
+        top: 28px;
+        border-radius: 50%;
+    }
+}
