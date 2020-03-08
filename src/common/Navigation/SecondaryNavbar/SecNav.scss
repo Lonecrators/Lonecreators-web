@@ -1,4 +1,5 @@
 .SecHeader {
+    border-bottom: 0.5px solid #d6d6d6 !important;
     .lc__input-group {
         background: #f2f2f2;
         width: 400px;
@@ -18,6 +19,9 @@
                 box-shadow: none;
             }
         }
+    }
+    .nav-item {
+        padding-right: 3rem;
     }
     .blue-dot {
         display: inline-block;

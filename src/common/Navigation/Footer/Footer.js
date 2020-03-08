@@ -31,16 +31,24 @@ const footer = () => (
                     <ul className="footer-nav">
                         <h4>FEATURES</h4>
                         <li>
-                            <Link className="footer-item">Contests</Link>
+                            <Link className="footer-item" to="/contests">
+                                Contests
+                            </Link>
                         </li>
                         <li>
-                            <Link className="footer-item">Posts</Link>
+                            <Link className="footer-item" to="posts">
+                                Posts
+                            </Link>
                         </li>
                         <li>
-                            <Link className="footer-item">Gallery</Link>
+                            <Link className="footer-item" to="/gallery">
+                                Gallery
+                            </Link>
                         </li>
                         <li>
-                            <Link className="footer-item">Blog</Link>
+                            <Link className="footer-item" to="/blog">
+                                Blog
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -48,16 +56,27 @@ const footer = () => (
                     <ul className="footer-nav">
                         <h4>COMPANY</h4>
                         <li>
-                            <Link className="footer-item">About us</Link>
+                            <Link className="footer-item" to="/about-us">
+                                About us
+                            </Link>
                         </li>
                         <li>
-                            <Link className="footer-item">FAQs</Link>
+                            <Link className="footer-item" to="/faq">
+                                FAQs
+                            </Link>
                         </li>
                         <li>
-                            <Link className="footer-item">Privacy policy</Link>
+                            <Link className="footer-item" to="/privacy-policy">
+                                Privacy policy
+                            </Link>
                         </li>
                         <li>
-                            <Link className="footer-item">Term of service</Link>
+                            <Link
+                                className="footer-item"
+                                to="/terms-of-service"
+                            >
+                                Term of service
+                            </Link>
                         </li>
                     </ul>
                 </div>
