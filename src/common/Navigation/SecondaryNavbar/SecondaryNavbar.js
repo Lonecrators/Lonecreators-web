@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Logo from '../../../assets/images/logo.svg';
 import history from '../../History/History';
 import { Link } from 'react-router-dom';
-import './SecNav.scss';
+import './SecNav.css';
 
 const NavBar = props => {
     const [path, setPath] = useState('');

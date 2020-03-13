@@ -14,7 +14,7 @@ const Contests = () => {
         <div className="Contests">
             <Header />
             <TabWrapper>
-                <Tabs defaultActiveKey="1">
+                <Tabs defaultActiveKey="1" animated={false}>
                     <TabPane tab="All" key="1">
                         <div className="container-fluid px-0">
                             <Row>
