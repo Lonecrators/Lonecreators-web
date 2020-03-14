@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../common/Navigation/SecondaryNavbar/SecondaryNavbar';
 import { TabWrapper } from '../StyledComponents/styledComponents';
 import { Row } from 'reactstrap';
-import 'antd/dist/antd.css';
+
 import { Tabs } from 'antd';
 import ContestContent from './ContestContent';
 

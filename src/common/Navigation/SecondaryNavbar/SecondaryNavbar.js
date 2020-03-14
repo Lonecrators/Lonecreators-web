@@ -8,7 +8,7 @@ const NavBar = props => {
     const [path, setPath] = useState('');
     useEffect(() => {
         getCurrentRoute();
-        addShadowToNav();
+        // addShadowToNav();
     });
     const toggleNavbar = () => {
         const navBar = document.querySelector('.navbar-collapse');
@@ -43,7 +43,7 @@ const NavBar = props => {
 
     return (
         <header className="SecHeader">
-            <nav className="navbar navbar-expand-lg navbar-transparent bg-transparent no-shadow">
+            <nav className="navbar navbar-expand-lg navbar-transparent bg-white">
                 <div className="container-fluid header-padding">
                     <Link className="navbar-brand" to="/">
                         <img src={Logo} alt="lonecreators logo" />
