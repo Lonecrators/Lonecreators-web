@@ -36,4 +36,4 @@ export const Social = styled.a`
     align-items: center;
     margin-right: 24px;
 `;
-export const FormGroup = styled.div``;
+export const TabWrapper = styled.div``;
