@@ -4,22 +4,22 @@
 .lc__input-group {
     background: #f2f2f2;
     width: 400px;
-    &:focus-within {
-        border: 1px solid #011b33;
-        box-shadow: 9px 7px 6px -8px rgba(1, 27, 51, 1);
-    }
-    .input-group-text {
-        background: transparent;
-        border: none;
-    }
-    input {
-        background: #f2f2f2;
-        border: none;
-        border-radius: 6px;
-        &:focus {
-            box-shadow: none;
-        }
-    }
+}
+.lc__input-group:focus-within {
+    box-shadow: 9px 7px 6px -8px rgba(1, 27, 51, 1);
+}
+.SecHeader .input-group-text {
+    background: transparent !important;
+    border: none !important;
+}
+.lc__input-group > input {
+    background: #f2f2f2;
+    border: none;
+    border-radius: 6px;
+}
+.lc__input-group > input:focus {
+    box-shadow: none;
+    /* border: 1px solid #297bf5; */
 }
 .nav-item {
     padding-right: 3rem;
@@ -38,6 +38,6 @@
 @media screen and (max-width: 575px) {
     .SecHeader {
         width: 98%;
-        border: 2px solid;
+        /* border: 2px solid; */
     }
 }
