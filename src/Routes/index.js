@@ -7,6 +7,7 @@ import Login from '../components/Auth/Login';
 import SignUp from '../components/Auth/SignUp';
 import Contests from '../components/Contests/Contests';
 import JoinContest from '../components/Contests/JoinContest/JoinContest';
+import ContestDetail from '../components/Contests/ContestDetail/ContestDetail';
 
 export default () => (
     <Router history={history}>
@@ -16,6 +17,7 @@ export default () => (
             <Route path="/register" component={SignUp} />
             <Route path="/contests" component={Contests} />
             <Route path="/join-contest" component={JoinContest} />
+            <Route path="/contest-detail" component={ContestDetail} />
         </Switch>
     </Router>
 );

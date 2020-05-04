@@ -12,12 +12,15 @@ const PostCard = ({
     postDate,
     commentCount,
     contestTag,
+    onClick,
 }) => {
     return (
         <div className={className}>
             <img src={postImg} alt={alt} className="card-img w-100" />
             <div className="card-body">
-                <p className="card-title">{postTitle}</p>
+                <p className="card-title" onClick={onClick}>
+                    {postTitle}
+                </p>
                 <Row className="justify-content-between">
                     <Col xs={6}>
                         <p className="contest-author">{postAuthor}</p>
@@ -48,10 +51,13 @@ const PostCard = ({
 
 export default styled(PostCard)`
     width: 100%;
-    border: 0.25px solid rgba(9, 165, 219, 0.7);
     box-sizing: border-box;
-    box-shadow: 0px 4px 8px rgba(9, 165, 219, 0.3);
     border-radius: 6px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0px 4px 8px rgba(9, 165, 219, 0.3);
+        border: 0.25px solid rgba(9, 165, 219, 0.7);
+    }
     @media screen and (max-width: 575px) {
         margin-bottom: 1rem;
     }
@@ -62,6 +68,9 @@ export default styled(PostCard)`
         font-size: 16px;
         font-weight: 500;
         line-height: 20px;
+        &:hover {
+            color: #297bf5;
+        }
     }
     .post-count,
     .comment-count,
